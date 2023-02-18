@@ -1,0 +1,89 @@
+body {
+  background-color: #252d37;
+}
+
+fieldset {
+    background-color: #3b4058;
+    margin:  0px auto;
+    text-align: center;
+    width: 400px;
+}
+h1 {
+  color: #8c9cbc;
+  text-align: left;
+  margin:  3px;
+  margin-left: 50px;
+  font-family: Helvetica;
+}
+
+label {
+  color: #8c9cbc;
+  text-align: start;
+  
+}
+
+#labelNombre {
+    margin-right: 250px;
+    
+}
+
+
+#labelEmail {
+    margin-right: 270px;
+    
+}
+
+
+#labelConfirmar {
+    margin-right: 190px;
+    
+}
+
+
+#labelPassword {
+    margin-right: 270px;
+    
+}
+
+
+input {
+    border-style: solid;
+    width: 300px;
+    height: 30px;
+}
+button {
+    color: white;
+    background-color: #6c63ff;
+    width: 310px;
+    height: 35px;
+    
+}
+
+
+span {
+    display:flex;
+    margin: 5px 45px;
+    width: 278px;
+    font-size: 10px;
+    color: red;
+}
+
+.imagenError {
+    background-image: url("images/error-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 280px;
+    background-position-y: 10px;
+    background-position: right right;
+}
+
+.imagenSuccess {
+    background-image: url("images/success-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 280px;
+    background-position-y: 10px;
+    background-position: right right;
+    
+    
+}

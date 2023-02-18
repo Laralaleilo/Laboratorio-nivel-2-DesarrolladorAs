@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <script type="text/javascript"  src="index.js"></script>
+
+    <form>
+        <fieldset>
+            <h1>Create Account</h1>
+            
+        <br>
+            <label  id="labelNombre" for="nombre"> Nombre</label>
+        <br>
+            <input id="nombre" type="text" name="nombre"  onchange="ValidarNombre();"/>
+            <span id="pNombre"></span>
+
+    
+            <label id="labelEmail" for="email">Email</label>
+        <br>
+            <input id="email" type="email" name="email" onchange="ValidarEmail();"/>
+            <span id="pEmail"></span>
+            
+
+            <label id="labelPassword" for="password">Clave</label>
+        <br>
+            <input id="password" type="password" name="password"  onchange="ValidarPassword();"/>
+            <span id="pPassword"></span>
+            
+
+            <label id="labelConfirmar" for="confirmPassword">Confirme su clave</label>
+        <br>
+            <input id="confirmarPassword" type="password" name="confirmPassword" onchange="ConfirmarPassword();" />
+            <span id="pConfirmarPassword"></span>
+
+            <button type="submit" onclick="return ValidarPassword(), ValidarEmail(), ValidarNombre(), ConfirmarPassword(), ValidarFormulario()">ENVIAR</button>
+        </fieldset>
+    </form>
+</body>
+</html>
